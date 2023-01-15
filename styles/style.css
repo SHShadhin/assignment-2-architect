@@ -32,7 +32,17 @@ header {
   font-weight: 700;
   font-size: 45px;
 }
-
+@media only screen and (max-width: 688px) {
+  .nav-section {
+    flex-direction: column;
+    margin: 0px;
+  }
+  .nav-bar ul {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 120px;
+  }
+}
 /* =============== banner section style ================== */
 .content {
   text-align: center;
@@ -60,13 +70,28 @@ header {
   border: none;
   margin-top: 30px;
 }
+/* mobile responsiv */
+@media only screen and (max-width: 688px) {
+  .content-description {
+    width: 70%;
+    margin-left: 20px;
+  }
+}
 
 /* ============ banner image style ============= */
+
 .image img {
   margin-top: 50px;
   width: 1100px;
   margin-left: 215px;
   margin-bottom: 45px;
+}
+
+@media only screen and (max-width: 688px) {
+  .image img {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 /* =================== feature section styles ============== */
@@ -94,23 +119,54 @@ header {
   margin-bottom: 2px;
   width: 70%;
 }
+@media only screen and (max-width: 688px) {
+  .picture-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .feature-section {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .picture,
+  img {
+    width: 100%;
+  }
+  .feature-description {
+    margin-left: 30px;
+  }
+  .banner-btn {
+    margin-left: 60px;
+  }
+}
 /* ===================About me styles=================== */
-.about{
+.promo {
   text-align: center;
   width: 50%;
   justify-content: center;
   margin-left: 400px;
 }
-.about-title {
+.promo-title {
   font-weight: 700;
   font-size: 45px;
   margin-top: 70px;
 }
-.about-des {
-  color: #727272;
-  font-size: 18px;
-  
-  
+.promo-video {
+  margin-top: 30px;
+  margin-left: 280px;
+}
+@media only screen and (max-width: 688px) {
+  .promo {
+    width: 75%;
+    margin-left: 5px;
+  }
+  .promo-video {
+    margin-left: 0;
+  }
+  .promo-video video {
+    width: 70%;
+    margin-left: 24px;
+  }
 }
 
 /* ================ skill section style ==================== */
@@ -176,6 +232,23 @@ p {
   margin-left: 600px;
   border: none;
 }
+@media only screen and (max-width: 688px) {
+  .skill-content {
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .skill-title {
+    width: 78%;
+  }
+  .skill-title,
+  p {
+    margin-left: 20px;
+  }
+  .btn {
+    width: 85%;
+    margin-left: 0;
+  }
+}
 
 /* ================= some facts styles ==================== */
 .facts {
@@ -224,7 +297,15 @@ p {
   font-weight: 600;
   font-size: 30px;
 }
-
+@media only screen and (max-width: 688px) {
+  .facts {
+    margin-left: 25px;
+    width: 70%;
+  }
+  .box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 /* ================= footer styles ===================== */
 .footer {
   width: 35%;
@@ -248,13 +329,12 @@ p {
   margin-top: 50px;
   margin-bottom: 130px;
 }
-.footer-icon{
+.footer-icon {
   display: flex;
   justify-content: space-between;
-  
 }
 .copywrite {
-  background: #FFF4E7;
+  background: #fff4e7;
   border-radius: 8px;
   width: 80%;
   margin-left: 160px;
@@ -264,7 +344,8 @@ p {
   color: #424242;
   font-size: 20px;
   padding: 20px 280px;
-  
-
 }
 
+/* ======================= mobile responsive ====================== */
+@media only screen and (max-width: 688px) {
+}
