@@ -98,7 +98,6 @@ header {
     width: 100%;
     margin-left: 0;
   }
-  
 }
 
 /* =================== feature section styles ============== */
@@ -145,7 +144,6 @@ header {
   .feature-description {
     margin-left: 30px;
   }
-  
 }
 /* ===================About me styles=================== */
 .promo {
@@ -173,7 +171,6 @@ header {
   }
   .promo-video video {
     width: 100%;
-    
   }
 }
 
@@ -260,8 +257,7 @@ p {
   }
   .skill-pic img {
     width: 100%;
-}
-
+  }
 }
 
 /* ================= some facts styles ==================== */
@@ -324,7 +320,6 @@ p {
     width: 20%;
     margin-bottom: 20px;
   }
-  
 }
 /* ================= footer styles ===================== */
 .footer {
@@ -376,16 +371,16 @@ p {
     width: 100%;
     text-align: center;
     margin-left: 0;
-}
-.footer-icon {
-  flex-direction: column;
-  row-gap: 30px;
-}
-.copywrite {
-  width: 100%;
-  margin-left: 0;
-}
-.copy {
-  padding:0;
-}
+  }
+  .footer-icon {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .copywrite {
+    width: 100%;
+    margin-left: 0;
+  }
+  .copy {
+    padding: 0;
+  }
 }
