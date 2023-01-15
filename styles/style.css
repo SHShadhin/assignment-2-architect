@@ -1,0 +1,270 @@
+/* universal */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* ============= nav-bar styles ============== */
+header {
+  background-color: #fff4e7;
+  overflow: hidden;
+}
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 228px;
+  margin-top: 50px;
+  color: #ff900e 10%;
+}
+.nav-bar ul {
+  display: flex;
+  list-style: none;
+  color: #424242;
+  font-weight: 500;
+  font-size: 18px;
+  gap: 50px;
+  margin-top: 22px;
+  margin-right: 240px;
+}
+.co-name {
+  color: #131313;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+/* =============== banner section style ================== */
+.content {
+  text-align: center;
+  margin-top: 102px;
+  color: #131313;
+  font-weight: 700;
+  font-size: 64px;
+}
+.content-description {
+  text-align: center;
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  width: 868px;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+.banner-btn {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  background: #ff900e;
+  border-radius: 8px;
+  padding: 20px 24px;
+  border: none;
+  margin-top: 30px;
+}
+
+/* ============ banner image style ============= */
+.image img {
+  margin-top: 50px;
+  width: 1100px;
+  margin-left: 215px;
+  margin-bottom: 45px;
+}
+
+/* =================== feature section styles ============== */
+.feature-section {
+  display: flex;
+  gap: 70px;
+  margin-top: 75px;
+  margin-left: 240px;
+}
+.picture-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.picture img {
+  width: 100%;
+  margin: auto;
+}
+.feature-content {
+  margin-top: 50px;
+}
+
+.feature-description {
+  margin-top: 24px;
+  margin-bottom: 2px;
+  width: 70%;
+}
+/* ===================About me styles=================== */
+.about{
+  text-align: center;
+  width: 50%;
+  justify-content: center;
+  margin-left: 400px;
+}
+.about-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-top: 70px;
+}
+.about-des {
+  color: #727272;
+  font-size: 18px;
+  
+  
+}
+
+/* ================ skill section style ==================== */
+.skill-container {
+  position: relative;
+}
+.skill-content {
+  display: flex;
+  margin-left: 200px;
+  margin-top: 100px;
+  gap: 54px;
+}
+.skills-title {
+  width: 30%;
+}
+.title {
+  border-left: 5px solid #ff900e;
+  padding-left: 25px;
+}
+.skills-title,
+h4 {
+  color: #131313;
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 24px;
+}
+.skill-title,
+p {
+  color: #727272;
+  font-size: 16px;
+}
+.skill-one {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  margin-left: 15px;
+  padding: 15px;
+  margin-top: 30px;
+}
+.skill-name {
+  font-weight: 600;
+  font-size: 20px;
+}
+.skill-description {
+  font-size: 16px;
+}
+.skill-pic img {
+  width: 90%;
+}
+.btn-container {
+  margin-bottom: 60px;
+}
+.btn {
+  font-weight: 700;
+  font-size: 65px;
+  color: #ffffff;
+  background: #ff900e;
+  border-radius: 8px;
+  padding: 40px 36px;
+  position: absolute;
+  bottom: 20px;
+  right: 40%;
+  margin-left: 600px;
+  border: none;
+}
+
+/* ================= some facts styles ==================== */
+.facts {
+  margin-left: 225px;
+  width: 40%;
+}
+.f-title {
+  color: #131313;
+  font-weight: 700;
+  font-size: 45px;
+}
+.f-description {
+  color: #727272;
+  font-size: 16px;
+}
+.box-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-around;
+  margin-top: 100px;
+  grid-gap: 40px;
+}
+.icon {
+  border: 1px solid tomato;
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.icon:hover {
+  transform: rotate(45deg);
+}
+.number {
+  color: #424242;
+  font-weight: 600;
+  font-size: 50px;
+}
+.para {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+/* ================= footer styles ===================== */
+.footer {
+  width: 35%;
+  text-align: center;
+  margin-left: 500px;
+  margin-top: 180px;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+.footer-para {
+  color: #727272;
+  font-size: 16px;
+}
+.footer-container {
+  width: 70%;
+  margin-left: 220px;
+  margin-top: 50px;
+  margin-bottom: 130px;
+}
+.footer-icon{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.copywrite {
+  background: #FFF4E7;
+  border-radius: 8px;
+  width: 80%;
+  margin-left: 160px;
+  margin-bottom: 210px;
+}
+.copy {
+  color: #424242;
+  font-size: 20px;
+  padding: 20px 280px;
+  
+
+}
+
