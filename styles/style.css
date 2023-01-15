@@ -73,11 +73,11 @@ header {
 /* mobile responsiv */
 @media only screen and (max-width: 688px) {
   .content-description {
-    width: 70%;
-    margin-left: 7px;
+    width: 100%;
+    margin-left: 0;
   }
   .content {
-    text-align: justify;
+    text-align: center;
   }
   .banner-btn {
     margin-left: 50px;
@@ -95,9 +95,10 @@ header {
 
 @media only screen and (max-width: 688px) {
   .image img {
-    width: 75%;
+    width: 100%;
     margin-left: 0;
   }
+  
 }
 
 /* =================== feature section styles ============== */
@@ -139,14 +140,12 @@ header {
   }
   .picture,
   img {
-    width: 75%;
+    width: 100%;
   }
   .feature-description {
     margin-left: 30px;
   }
-  .banner-btn {
-    margin-left: 60px;
-  }
+  
 }
 /* ===================About me styles=================== */
 .promo {
@@ -173,7 +172,7 @@ header {
     margin-left: 0;
   }
   .promo-video video {
-    width: 75%;
+    width: 100%;
     
   }
 }
@@ -247,18 +246,20 @@ p {
     margin-left: 0;
   }
   .skills-title {
-    width: 75%;
+    width: 100%;
   }
   .skill-title,
   p {
     margin-left: 20px;
   }
   .btn {
-    width: 85%;
+    width: 100%;
     margin-left: 0;
+    bottom: -250px;
+    left: 0;
   }
   .skill-pic img {
-    width: 75%;
+    width: 100%;
 }
 
 }
@@ -312,12 +313,18 @@ p {
 }
 @media only screen and (max-width: 688px) {
   .facts {
-    margin-left: 25px;
+    margin-left: 50px;
     width: 70%;
+    margin-top: 330px;
   }
   .box {
     grid-template-columns: repeat(1, 1fr);
   }
+  .icon img {
+    width: 20%;
+    margin-bottom: 20px;
+  }
+  
 }
 /* ================= footer styles ===================== */
 .footer {
@@ -337,7 +344,7 @@ p {
   font-size: 16px;
 }
 .footer-container {
-  width: 70%;
+  width: 100%;
   margin-left: 220px;
   margin-top: 50px;
   margin-bottom: 130px;
@@ -361,4 +368,24 @@ p {
 
 /* ======================= mobile responsive ====================== */
 @media only screen and (max-width: 688px) {
+  .footer-container {
+    width: 25%;
+    margin-left: 150px;
+  }
+  .footer {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+}
+.footer-icon {
+  flex-direction: column;
+  row-gap: 30px;
+}
+.copywrite {
+  width: 100%;
+  margin-left: 0;
+}
+.copy {
+  padding:0;
+}
 }
